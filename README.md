@@ -1,4 +1,4 @@
-## koa2-ueditor
+## koa2-ueditor-qiniu
 
 koa2 版的 UEditor 百度编辑器，支持修改 UEditor 的配置，并可传入七牛云对象存储的配置，同时将图片文件传送到七牛云对象存储上。
 
