@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "tyreke.xu"
+  },
+  "bugs": {
+    "url": "https://github.com/xuyuyin/koa2-ueditor-qiniu/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "koa-multer": "^1.0.2",
+    "qiniu": "^7.1.3"
+  },
+  "deprecated": false,
+  "description": "UEditor百度编辑器基于koa2的后端实现，并上传到七牛云对象存储",
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/xuyuyin/koa2-ueditor-cos",
+  "keywords": [
+    "koa2",
+    "nodejs",
+    "ueditor",
+    "qiniu",
+    "koa2-ueditor"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "koa2-ueditor-qiniu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyuyin/koa2-ueditor-qiniu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
