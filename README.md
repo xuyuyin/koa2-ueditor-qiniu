@@ -20,7 +20,7 @@ koa2 版的 UEditor 百度编辑器，支持修改 UEditor 的配置，并可传
 //修改静态目录等，cos配置根据cos的API修改 https://cloud.tencent.com/document/product/436/8629
 
 const router = require('koa-router')()
-const ueditor = require('koa2-ueditor')
+const ueditor = require('koa2-ueditor-qiniu')
 
 router.all('/editor/controller', ueditor('public',{
 	"imageAllowFiles": [".png", ".jpg", ".jpeg"]
